@@ -73,17 +73,17 @@ For horizontal sorting, add `dnd-direction="horizontal"`:
 
 ### Drag Families
 
-Use `dnd-family` to restrict which draggable items can be dropped into which containers:
+Use `dnd_family` to restrict which draggable items can be dropped into which containers:
 
 ```html
 <!-- Only "blue" items can be dropped here -->
-<div id="blue-container" dnd="drop" dnd-family="blue">
-  <div id="item1" dnd="drag" dnd-family="blue">Blue Item</div>
+<div id="blue-container" dnd="drop" dnd_family="blue">
+  <div id="item1" dnd="drag" dnd_family="blue">Blue Item</div>
 </div>
 
 <!-- Only "red" items can be dropped here -->
-<div id="red-container" dnd="drop" dnd-family="red">
-  <div id="item2" dnd="drag" dnd-family="red">Red Item</div>
+<div id="red-container" dnd="drop" dnd_family="red">
+  <div id="item2" dnd="drag" dnd_family="red">Red Item</div>
 </div>
 
 <!-- No family = accepts anything -->
