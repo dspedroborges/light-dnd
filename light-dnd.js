@@ -30,8 +30,8 @@ function getDropState() {
 }
 
 const familyMatches = (drag, drop) => {
-    const dragFamily = drag.getAttribute('dnd-family');
-    const dropFamily = drop.getAttribute('dnd-family');
+    const dragFamily = drag.getAttribute('dnd_family');
+    const dropFamily = drop.getAttribute('dnd_family');
     // both have no family → compatible
     // one has family, other doesn't → incompatible
     // both have same family → compatible
